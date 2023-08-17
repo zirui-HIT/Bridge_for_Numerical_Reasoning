@@ -1,0 +1,35 @@
+Decompose the paragraph.
+
+Paragraph:
+If Raymond does half as much laundry as Sarah, and Sarah does 4 times as much laundry as David, Sarah does 400 pounds of laundry.
+Decomposed:
+Raymond does half as much laundry as Sarah.
+Sarah does 4 times as much laundry as David.
+Sarah does 400 pounds of laundry.
+
+Paragraph:
+Ellen is on a diet. She eats two carrots, a salad, and a yogurt every day. The salad costs her $6, while the yogurt is half the price. She pays $11 for her goods.
+Decomposed:
+Ellen eats two carrots, a salad, and a yogurt every day.
+The salad costs her $6.
+The yogurt is half the price.
+She pays $11 for her goods.
+
+Paragraph:
+Marilyn's first record sold 10 times as many copies as Harald's. They sold 88,000 copies combined.
+Decomposed:
+Marilyn's first record sold 10 times as many copies as Harald's.
+They sold 88,000 copies combined.
+
+Paragraph:
+A fog bank rolls in from the ocean to cover a city. It takes 10 minutes to cover every 3 miles of the city. The city is 42 miles across from the oceanfront to the opposite inland edge.
+Decomposed:
+It takes 10 minutes to cover every 3 miles of the city.
+The city is 42 miles across from the oceanfront to the opposite inland edge.
+
+Paragraph:
+Robert is building a 15 foot long, 10 foot wide, rectangular wooden fence around his garden.  He needs 2 wood slats for every foot of fencing he builds.
+Decomposed:
+Robert is building a 15 foot long rectangular wooden fence.
+Robert is building a 10 foot wide rectangular wooden fence.
+He needs 2 wood slats for every foot of fencing he builds.

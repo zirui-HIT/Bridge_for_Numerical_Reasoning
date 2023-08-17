@@ -1,0 +1,63 @@
+Translate the paragraph into the corresponding system of equations.
+The name of the unknown should correspond to the meaning of the entity in the paragraph.
+Unknowns are unmodifiable constants.
+
+Paragraph:
+If Raymond does half as much laundry as Sarah, and Sarah does 4 times as much laundry as David, Sarah does 400 pounds of laundry.
+Decomposed:
+Raymond does half as much laundry as Sarah.
+Sarah does 4 times as much laundry as David.
+Sarah does 400 pounds of laundry.
+Equations:
+raymond_laundry = sarah_laundry / 2
+sarah_laundry = 4 * david_laundry
+sarah_laundry = 400
+
+Paragraph:
+A total of $9000 is invested, part of it at 10% and the rest at 12%. The total interest after one year is $1030.
+Decomposed:
+A total of $9000 is invested.
+Part of it at 10%.
+The rest at 12%.
+The total interest after one year is $1030.
+Equations:
+total_money = 9000
+total_money = 10_part + 12_part
+0.1 * 10_part + 0.12 * 12_part = 1030
+
+Paragraph:
+Mike decides he wants to replace his movie collection with digital versions.  He has 600 movies.  A third of the movies are in various series and he knows he can get those for only $6 of the cost of a normal movie by just buying the series together.  40% of the remaining movies are older movies which are $5.  A normal movie costs $10.
+Decomposed:
+Mike has 600 movies.
+A third of the movies are in various series.
+He can get those for only $6 of the cost of a normal movie.
+40% of the remaining movies are older movies which are $5.
+A normal movie costs $10.
+Equations:
+total_movies = 600
+series_movies = total_movies / 3
+series_cost_each = 6
+older_movies = (total_movies - series_movies) * 0.4
+older_cost_each = 5
+normal_cost_each = 10
+
+Paragraph:
+James decides to buy birthday candles for his 2 sons. One of them is 12 and the other is 4 years younger. A pack of 5 candles costs $3.
+Decomposed:
+James has 2 sons.
+One of them is 12.
+The other is 4 years younger.
+A pack of 5 candles costs $3.
+Equations:
+son1_age = 12
+son2_age = son1_age - 4
+cost_per_candle = 3 / 5
+
+Paragraph:
+Bob says to Alice: if you give me 3 apples and then take half of my apples away, then I will be left with 13 apples. How many apples do I have now?
+Decomposed:
+Alice give Bob 3 apples.
+Alice takes half of Bob's apples away.
+Bob is left with 13 apples.
+Equations:
+(bob_apples + 3) / 2 = 13

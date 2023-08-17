@@ -1,0 +1,48 @@
+Generate the answer of the question based on the unknowns in the equations.
+The equations must end with the unknown 'ans'.
+Use only addition, subtraction, multiplication, division and parentheses.
+
+Question:
+If Raymond does half as much laundry as Sarah, and Sarah does 4 times as much laundry as David, calculate the difference in the amount of laundry Raymond and David do if Sarah does 400 pounds of laundry.
+Equations:
+raymond_laundry = sarah_laundry / 2
+sarah_laundry = 4 * david_laundry
+sarah_laundry = 400
+ans = raymond_laundry - david_laundry
+
+Question:
+Bob says to Alice: if you give me 3 apples and then take half of my apples away, then I will be left with 13 apples. How many apples do I have now?
+Equations:
+(bob_apples + 3) / 2 = 13
+ans = bob_apples
+
+Question:
+Marilyn's first record sold 10 times as many copies as Harald's. If they sold 88,000 copies combined, how many copies did Harald sell?
+Equations:
+marilyn_copies = 10 * harald_copies
+marilyn_copies + harald_copies = 88000
+ans = harald_copies
+
+Question:
+A fog bank rolls in from the ocean to cover a city. It takes 10 minutes to cover every 3 miles of the city. If the city is 42 miles across from the oceanfront to the opposite inland edge, how many minutes will it take for the fog bank to cover the whole city?
+Equations:
+mile_per_minute = 3 / 10
+miles = 42
+ans = miles / mile_per_minute
+
+Question:
+A total of $9000 is invested, part of it at 10% and the rest at 12%. The total interest after one year is $1030. How much was invested at 10%?
+Equations:
+total_money = 9000
+total_money = 10_part + 12_part
+0.1 * 10_part + 0.12 * 12_part = 1030
+ans = 10_part
+
+Question:
+In a dance class of 20 students, 20% enrolled in contemporary dance, 25% of the remaining enrolled in jazz dance, and the rest enrolled in hip-hop dance. What percentage of the entire students enrolled in hip-hop dance?
+Equations:
+total_students = 20
+contemporary_students = total_students * 0.2
+jazz_students = (total_students - contemporary_students) * 0.25
+hip_hop_students = total_students - contemporary_students - jazz_students
+ans = hip_hop_students / total_students * 100
